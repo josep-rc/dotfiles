@@ -1,0 +1,8 @@
+[user]
+	name = Josep Peñalba
+	email = jopema7@gmail.com
+[init]
+	defaultBranch = main
+[core]
+	editor = vim
+
