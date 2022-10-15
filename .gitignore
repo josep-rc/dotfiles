@@ -40,5 +40,6 @@ Thumbs.db
 .vscode
 .idea
 *.iml
+*.sublime-*
 
 
