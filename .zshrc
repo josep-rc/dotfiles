@@ -4,6 +4,8 @@ export PATH=/opt/homebrew/opt/python@3.9/libexec/bin:$PATH
 export PATH=/Users/dcodr/Library/Python/3.9/bin:$PATH
 export PATH=/Applications/MAMP/bin/php/php8.0.7/bin:$PATH
 export PATH="$HOME/.symfony/bin:$PATH"
+export PATH="$HOME/go/bin:$PATH"
+export PATH="/Applications/Sublime Text.app/Contents/SharedSupport/bin:$PATH"
 
 # Path to your oh-my-zsh installation.
 export ZSH="/Users/dcodr/.oh-my-zsh"
@@ -44,7 +46,7 @@ alias ibrew="arch -x86_64 brew"
 # alias to apple silicon brew /opt/homebrew/bin
 alias abrew="/opt/homebrew/bin/brew"
 
-# nvm
-export NVM_DIR="$HOME/.nvm"
-[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
-[ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
+neofetch
+
+export NVM_DIR="$([ -z "${XDG_CONFIG_HOME-}" ] && printf %s "${HOME}/.nvm" || printf %s "${XDG_CONFIG_HOME}/nvm")"
+[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh" # This loads nvm
