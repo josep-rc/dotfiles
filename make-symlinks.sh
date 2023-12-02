@@ -10,5 +10,7 @@ ln -sf ~/dev/dotfiles/.zshrc ~/
 
 ln -sf ~/dev/dotfiles/.vimrc ~/.vim/vimrc
 
+ln -s ~/dev/dotfiles/nvim ~/.config/nvim
+
 echo "Done!"
 
