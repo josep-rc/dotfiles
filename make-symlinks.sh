@@ -12,5 +12,7 @@ ln -sf ~/dev/dotfiles/.vimrc ~/.vim/vimrc
 
 ln -s ~/dev/dotfiles/nvim ~/.config/nvim
 
+ln -sf ~/dev/dotfiles/.wezterm.lua ~/
+
 echo "Done!"
 
