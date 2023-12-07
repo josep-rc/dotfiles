@@ -16,6 +16,9 @@ end
 config.color_scheme = 'Tokyo Night Moon'
 config.font_size = 15.0
 config.window_close_confirmation = 'NeverPrompt'
-
+config.cursor_blink_ease_in = "Linear"
+config.cursor_blink_ease_out = "Linear"
+config.cursor_blink_rate = 200
+config.default_cursor_style = "BlinkingBlock"
 -- and finally, return the configuration to wezterm
 return config
