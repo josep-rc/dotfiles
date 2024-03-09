@@ -20,5 +20,13 @@ config.cursor_blink_ease_in = "Linear"
 config.cursor_blink_ease_out = "Linear"
 config.cursor_blink_rate = 200
 config.default_cursor_style = "BlinkingBlock"
+
+config.window_padding = {
+  left = 5,
+  right = 0,
+  top = 0,
+  bottom = 0,
+}
+
 -- and finally, return the configuration to wezterm
 return config
