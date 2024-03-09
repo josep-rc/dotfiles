@@ -14,7 +14,7 @@ vim.opt.numberwidth = 1
 vim.opt.showmatch = true
 vim.opt.wrap = false 
 vim.opt.termguicolors = true
-
+vim.opt.showmode = false
 -- cursor style
 vim.opt.guicursor = 'n-v-c:block-Cursor,i-ci-ve:ver25-Cursor,r-cr-o:hor20-Cursor,a:blinkwait200-blinkon100-blinkoff150'
 

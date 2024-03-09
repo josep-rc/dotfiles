@@ -27,7 +27,7 @@ require("lazy").setup({
   {'nvim-lualine/lualine.nvim'},
   {'akinsho/bufferline.nvim', version = "*", dependencies = 'nvim-tree/nvim-web-devicons'},
   {'lukas-reineke/indent-blankline.nvim', main = "ibl", opts = {} },
-  {'nvim-treesitter/nvim-treesitter', build = ':TSUpdate'},
+  {'nvim-treesitter/nvim-treesitter', build = ':TSUpdate', event = {'BufReadPre', 'BufNewFile'}},
   {'nvim-tree/nvim-tree.lua'},
   {'ThePrimeagen/vim-be-good'}
 })
